@@ -23,13 +23,14 @@ body, html{
 
 @media screen and (max-width: 479px){
 
-section.module.parallax-1, section.module.parallax-2, section.module.parallax-3, section.module.parallax-4{
-    -moz-background-size: auto;
-    -webkit-background-size: auto;
-    background-attachment: scroll;
-    background-position: top;
-    background-size: auto;
-   }
+	.parallax{
+		background-image: url("wallpaper_mobile.jpg");
+		-moz-background-size: auto;
+		-webkit-background-size: auto;
+		background-attachment: scroll;
+		background-position: top;
+		background-size: auto;
+	}
 }
 
 span.border {
