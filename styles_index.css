@@ -1,0 +1,53 @@
+@import url("styles_header.css");
+
+body, html{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	margin:0;
+}
+
+
+.parallax { 
+	/* The image used */
+	background-image: url("wallpaper.jpg");
+
+	/* Set a specific height */
+	height: 100%;
+	width: 100%;
+
+	/* Create the parallax scrolling effect */
+	position: relative;
+	opacity: 0.85;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media screen and (max-width: 400px){
+
+	.parallax{
+		background-image: url("wallpaper_mobile.jpg");
+		-moz-background-size: auto;
+		-webkit-background-size: auto;
+		background-attachment: scroll;
+		background-position: top;
+		background-size: auto;
+	}
+}
+
+span.text_on_parallax {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+
+	align-content: center;
+	position: absolute;
+	left:38%;
+	top: 50%;
+	width: 30%;
+	text-align: center;
+}

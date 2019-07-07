@@ -1,0 +1,25 @@
+@import url("styles_header.css");
+body, html{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	margin:0;
+	background: black;
+}
+.about { 
+	color: white;
+	padding: 5px;
+	font-size: 20px;
+	letter-spacing: 1px;	
+	background: url("mountains.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.coding_skills {
+	background: black;
+	color: white;
+	font-size: 20px;
+}
+.devicon {
+  font-size: 5rem;
+}
